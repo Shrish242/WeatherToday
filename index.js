@@ -44,7 +44,6 @@ async function getWeatherData(city) {
   const timeOptions = {
     hour: "numeric",
     minute: "numeric",
-    second: "numeric",
     timeZone: "UTC",
   };
 

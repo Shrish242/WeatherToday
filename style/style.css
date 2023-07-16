@@ -3,15 +3,6 @@ body{
     margin: 0 auto;
 }
 
-.bg{
-    z-index: 1;
-    position: absolute;
-    mix-blend-mode: color-burn;
-    left: 180px;
-    top: -555px;
-    transform: rotate(90deg);
-}
-
 
 .headdesign{
     width: 100%;
@@ -34,16 +25,6 @@ body{
     border-width: 1px;
 }
 
-
-.fa-solid{
-    color: black;
-    position: absolute;
-    z-index: 3;
-    left: 52%;
-    top: 4%;
-    width: 10px;
-    height: 10px;
-}
 .state {
     font-family: 'Crimson Text', serif;
     position: absolute;
@@ -53,6 +34,7 @@ body{
     font-weight: bold;
     color: black;
     white-space: nowrap;
+    padding: 2 , 2 , 2 , 2;
     text-align: center;
     top: 5%;
   }
@@ -111,7 +93,7 @@ body{
     width: 9%;
     height: 18%;
     background-image: linear-gradient(#fafafa , #eeeeee);
-    border-radius: 10px;    
+    border-radius: 10px;   
 }
 
 .container5{
@@ -456,7 +438,9 @@ body{
         width: 22%;
         height: 18%;
         background-image: linear-gradient(#d4c2c2 , #6d388b);
-        border-radius: 10px;    
+        border-radius: 10px;  
+        padding: 4 , 4, 4 ,4 ;
+        margin: 4 , 4 , 4 , 4;;  
     }
 
     .container4{
@@ -482,7 +466,7 @@ body{
     .time1 , .time2 , .time3 {
         white-space: nowrap;
         font-size: smaller;
-        left: 2px;
+        left: 18px;
     }
 
     .rain , .sun{
@@ -490,6 +474,10 @@ body{
         height: 9vh;
         position: absolute;
         left: 21px;
+    }
+
+    .btnname{
+        font-size: 6px;
     }
 
   }
