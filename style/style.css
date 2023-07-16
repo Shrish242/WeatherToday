@@ -1,0 +1,432 @@
+body{
+    font-family: 'Crimson Text', serif;
+    margin: 0 auto;
+}
+
+.bg{
+    z-index: 1;
+    position: absolute;
+    mix-blend-mode: color-burn;
+    left: 180px;
+    top: -555px;
+    transform: rotate(90deg);
+}
+
+
+.headdesign{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#304879 , #8AA7E0 , #EEA7E3 );
+    position: absolute;
+    left: 0.4px;
+    top: 0.3px;
+}
+.searchbtn {
+    width: 20vw; /* Use relative unit */
+    height: 7vh; /* Use relative unit */
+    z-index: 2;
+    border-radius: 10px;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 2%;
+    border-color: bisque;
+    border-width: 1px;
+}
+
+
+.fa-solid{
+    color: black;
+    position: absolute;
+    z-index: 3;
+    left: 52%;
+    top: 4%;
+    width: 10px;
+    height: 10px;
+}
+.state {
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+    white-space: nowrap;
+    text-align: center;
+    top: 5%;
+  }
+  
+
+.time{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 48%;
+    top: 14%;
+    width: 100px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.container1{
+    position: absolute;
+    left: 34%;
+    top: 24%;
+    width: 38%;
+    height: 30%;
+    background-image: linear-gradient(#15255e , #A8D7DA);
+    mix-blend-mode: soft-light;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.container2{
+    position: absolute;
+    left: 40%;
+    top: 57%;
+    width: 25%;
+    height: 16%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;   
+    white-space: nowrap;
+    flex: content;
+}
+
+.container3{
+    position: absolute;
+    left: 40%;
+    top: 80%;
+    width: 9%;
+    height: 18%;
+    background-image: linear-gradient(#d4c2c2 , #6d388b);
+    border-radius: 10px;    
+}
+
+.container4{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    width: 9%;
+    height: 18%;
+    background-image: linear-gradient(#fafafa , #eeeeee);
+    border-radius: 10px;    
+}
+
+.container5{
+    position: absolute;
+    left: 60%;
+    top: 80%;
+    width: 9%;
+    height: 18%;
+    background-image: linear-gradient(#fafafa , #eeeeee);
+    border-radius: 10px;    
+}
+
+.today{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    font-weight: 900;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.future{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    font-weight: 900;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.clouds{
+    position: absolute;
+    left: 180px;
+    top: 12px;
+    z-index: 1;
+    width:20%;
+    height: 50%;
+    display: flex;
+}
+
+.temp{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 42%;
+    top: 39%;
+    font-weight: bolder;
+    color: #000000;
+    z-index: 3;
+    font-size: 30px;
+}
+
+.weath{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    font-weight: bolder;
+    color: #000000;
+    z-index: 3;
+    font-size: 30px;
+}
+
+.drop1{
+    width: 40px;
+    height: 40px;
+    margin: 2 5 2 2;
+    padding: 4 4 4 4;
+    position: absolute;
+    left: 8%;
+    top: 15%;
+}
+
+.wind1{
+    width: 40px;
+    height: 40px;
+    margin: 2 5 2 2;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+
+.rain1{
+    width: 40px;
+    height: 40px;
+    margin: 2 5 2 2;
+    position: absolute;
+    left: 75%;
+    top: 15%;
+}
+
+.data1{
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    top: 44%;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.data2{
+    align-items: center;
+    position: absolute;
+    left: 39%;
+    top: 44%;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.data3{
+    align-items: center;
+    position: absolute;
+    left: 76%;
+    top: 43%;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    z-index: 3;
+}
+
+.container6{
+    position: absolute;
+    left: 45%;
+    top: 22%;
+    width: 14%;
+    height: 5%;
+    background-color: #fafafa;
+    border-radius: 10px;
+    display: flex;
+}
+
+.date{
+    position: absolute;
+    left: 10%;
+    top: -19%;
+}
+
+.clouds1{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    z-index: 1;
+    width:45%;
+    height: 45%;
+    display: flex;
+}
+
+.time1{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 25%;
+    top: -10%;
+    color: #000000;
+}
+
+.degree1{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 25%;
+    top: 55%;
+    color: #ffffff;
+}
+
+.time2{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 30%;
+    top: -10%;
+    color: #000000;
+}
+.sun{
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    width:50%;
+    height: 50%;
+}
+.degree2{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 29%;
+    top: 60%;
+    color: #000000;
+}
+
+.time3{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 19%;
+    top: -10%;
+    color: #000000;
+}
+.rain{
+    position: absolute;
+    left: 32px;
+    top: 25px;
+    width:50%;
+    height: 50%;
+}
+.degree3{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 39%;
+    top: 60%;
+    color: #000000;
+}
+
+.btn {
+    position: absolute;
+    left: 61%;
+    top: 2%;
+    width: 5.5vw; /* Use relative unit */
+    height: 3.5vw; /* Use relative unit */
+    background-color: #fafafa;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+
+@media screen and (max-width: 600px) { 
+    .searchbtn {
+        width: 20vw; /* Use relative unit */
+        height: 5.5vh; /* Use relative unit */
+        z-index: 2;
+        border-radius: 10px;
+        border-color: bisque;
+        border-width: 1px;
+        float: right;
+    }
+    
+    .btn {
+        position: absolute;
+        right: 2%; /* Use relative unit */
+        top: 2%; /* Use relative unit */
+        width: 12vw; /* Use relative unit */
+        height: 5.5vh; /* Use relative unit */
+        background-color: #fafafa;
+        border-radius: 10px;
+        z-index: 3;
+    }
+
+    .state{
+        position: absolute;
+        place-content: center;
+        font-size: 28px;
+        top: 6%;
+        left: 25px;
+        float: left;
+    }
+
+    .time{
+        position: absolute;
+        place-content: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        float: right;
+    }
+
+    .container1{
+        width: 50vw;
+        height: 30vh;
+        float: left;
+    }
+
+    .clouds{
+        height: 9vh;
+        width: 20vw;
+        float: right;
+        position: absolute;
+        top: 19%;
+        left: 17%;
+    }
+
+    .temp{
+        position: absolute;
+        left: 25%;
+        top: 40%;
+        font-weight: bolder;
+        color: #000000;
+        z-index: 3;
+        font-size: 30px;
+        float: right;
+    }
+
+    .weath{
+        position: absolute;
+        left: 18%;
+        top: 65%;
+        font-weight: bolder;
+        color: #000000;
+        z-index: 3;
+        font-size: 25px;
+        display: flex;
+        float: right;
+    }
+
+    .container6{
+        position: absolute;
+        left: 45%;
+        top: 22%;
+        width: 27vw;
+        height: 5vh;
+        display: flex;
+        float: right;
+    }
+
+    .date{
+        position: absolute;
+        white-space: nowrap;
+        font-size: 9px;
+        top: 2%;
+        left: 0px;
+    }
+    
+
+
+  }
