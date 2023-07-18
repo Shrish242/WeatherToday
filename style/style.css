@@ -309,14 +309,14 @@ body{
 }
 
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 700px) { 
     .searchbtn {
         width: 28vw; /* Use relative unit */
         height: 5.5vh; /* Use relative unit */
         z-index: 2;
         border-radius: 20px;
         position: absolute;
-        left: 38%;
+        left: 33%;
         top: 2%;
         border-color: bisque;
         border-width: 1px;
@@ -324,7 +324,7 @@ body{
     
     .btn {
         position: absolute;
-        left: 66%; /* Use relative unit */
+        left: 63%; /* Use relative unit */
         top: 2%; /* Use relative unit */
         width: 12vw; /* Use relative unit */
         height: 5.5vh; /* Use relative unit */
@@ -368,8 +368,8 @@ body{
 
     .temp{
         position: absolute;
-        left: 33%;
-        top: 40%;
+        left: 35%;
+        top: 44%;
         font-weight: bolder;
         color: #000000;
         z-index: 3;
@@ -378,7 +378,7 @@ body{
 
     .weath{
         position: absolute;
-        left: 33%;
+        left: 35%;
         top: 65%;
         font-weight: bolder;
         color: #000000;
@@ -407,10 +407,10 @@ body{
     
     .container2{
         position: absolute;
-        left: 32%;
-        top: 50%;
+        left: 27%;
+        top: 55%;
         width: 50%;
-        height: 15%;
+        height: 12%;
         background-color: rgb(255, 255, 255);
         border-radius: 10px;   
         white-space: nowrap;
@@ -447,7 +447,7 @@ body{
         
         position: absolute;
         left: 17%;
-        top: 70%;
+        top: 73%;
         font-weight: 900;
         font-size: 20px;
         text-decoration: underline;
@@ -489,11 +489,18 @@ body{
         white-space: nowrap;
         font-size: medium;
         font-weight: bold;
-        left: 18px;
+        left: 20%;
         position: absolute;
         top: 1.5%;
     }
 
+    .clouds1{
+        width: 10vw;
+        height: 7vh;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+    }
     .rain , .sun{
         width: 10vw;
         height: 7vh;
@@ -505,10 +512,13 @@ body{
     .future{
         font-size: large;
         position: absolute;
+        top: 73%;
     }
 
     .btnname{
         font-size: 7px;
+        position: absolute;
+        
     }
 
   }
