@@ -15,14 +15,6 @@ let design = document.querySelector(".headdesign");
 let computedStyle = window.getComputedStyle(design);
 let backgroundImage = computedStyle.backgroundImage;
 
-if (backgroundImage.includes("gradient")) {
-  console.log("Background is a gradient");
-} else {
-  let backgroundColor = computedStyle.backgroundColor;
-  console.log("Background color:", backgroundColor);
-}
-
-
 
 async function getWeatherData(city) {
   const response = await fetch(apiurl + city + `&appid=${ApiKey}`);
