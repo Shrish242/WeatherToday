@@ -213,17 +213,18 @@ body{
     position: absolute;
     left: 45%;
     top: 22%;
-    width: 12%;
+    width: 11%;
     height: 5%;
     background-color: #fafafa;
     border-radius: 10px;
-    display: flex;
 }
 
 .date{
     position: absolute;
     left: 10%;
     top: -19%;
+    font-size: 15px;
+    white-space: nowrap;
 }
 
 .clouds1{
@@ -313,10 +314,12 @@ body{
         width: 20vw; /* Use relative unit */
         height: 5.5vh; /* Use relative unit */
         z-index: 2;
-        border-radius: 10px;
+        border-radius: 20px;
+        position: absolute;
+        left: 40%;
+        top: 2%;
         border-color: bisque;
         border-width: 1px;
-        float: right;
     }
     
     .btn {
