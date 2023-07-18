@@ -301,10 +301,10 @@ body{
     position: absolute;
     left: 61%;
     top: 2%;
-    width: 5.5vw; /* Use relative unit */
-    height: 3.5vw; /* Use relative unit */
+    width: 8%; /* Use relative unit */
+    height: 7%; /* Use relative unit */
     background-color: #fafafa;
-    border-radius: 10px;
+    border-radius: 20px;
     z-index: 3;
 }
 
@@ -353,8 +353,8 @@ body{
         width: 60vw;
         height: 22vh;
         position: absolute;
-        left: 27%;
-        top: 28%;
+        left: 24%;
+        top: 24%;
     }
 
     .clouds{
@@ -389,9 +389,9 @@ body{
     .container6{
         position: absolute;
         left: 44%;
-        top: 26%;
-        width: 29vw;
-        height: 5vh;
+        top: 22%;
+        width: 23%;
+        height: 5%;
         display: flex;
         float: right;
     }
@@ -408,7 +408,7 @@ body{
     .container2{
         position: absolute;
         left: 32%;
-        top: 55%;
+        top: 50%;
         width: 50%;
         height: 15%;
         background-color: rgb(255, 255, 255);
@@ -487,15 +487,19 @@ body{
 
     .time1 , .time2 , .time3 {
         white-space: nowrap;
-        font-size: smaller;
+        font-size: medium;
+        font-weight: bold;
         left: 18px;
+        position: absolute;
+        top: 1.5%;
     }
 
     .rain , .sun{
         width: 10vw;
-        height: 8vh;
+        height: 7vh;
         position: absolute;
-        left: 21px;
+        left: 20%;
+        top: 30%;
     }
 
     .future{
