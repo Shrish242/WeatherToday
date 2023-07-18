@@ -326,8 +326,8 @@ body{
         position: absolute;
         left: 63%; /* Use relative unit */
         top: 2%; /* Use relative unit */
-        width: 12vw; /* Use relative unit */
-        height: 5.5vh; /* Use relative unit */
+        width: 12%; /* Use relative unit */
+        height: 5.5%; /* Use relative unit */
         background-color: #fafafa;
         border-radius: 15px;
         z-index: 3;
@@ -420,7 +420,7 @@ body{
         width: 19%;
         height: 36%;
         position: absolute;
-        left: 8%;
+        left: 6%;
         top: 15%;
     }
 
@@ -428,7 +428,7 @@ body{
         width: 20%;
         height: 30%;
         position: absolute;
-        left: 40%;
+        left: 38%;
         top: 17%;
     }
     .rain1{
@@ -513,11 +513,14 @@ body{
         font-size: large;
         position: absolute;
         top: 73%;
+        right: 20%;
     }
 
     .btnname{
-        font-size: 7px;
+        font-size: 8px;
         position: absolute;
+        top: 20%;
+        font-weight: bold;
         
     }
 
