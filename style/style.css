@@ -134,7 +134,7 @@ body{
 .temp{
     font-family: 'Crimson Text', serif;
     position: absolute;
-    left: 37%;
+    left: 39%;
     top: 39%;
     font-weight: bolder;
     color: #000000;
@@ -368,7 +368,7 @@ body{
 
     .temp{
         position: absolute;
-        left: 35%;
+        left: 37%;
         top: 44%;
         font-weight: bolder;
         color: #000000;
