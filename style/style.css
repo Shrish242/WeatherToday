@@ -27,13 +27,14 @@ body{
 .state {
     font-family: 'Crimson Text', serif;
     position: absolute;
-    left: 45%;
+    left: 46%;
     top: 5%;
     font-size: 6vh;
     font-weight: bold;
     color: black;
     white-space: nowrap;
     display: grid;
+    align-items: center;
   }
   
 
@@ -308,7 +309,7 @@ body{
 }
 
 
-@media screen and (max-width: 650px) { 
+@media screen and (max-width: 750px) { 
     .searchbtn {
         width: 28vw; /* Use relative unit */
         height: 5.5vh; /* Use relative unit */
@@ -336,16 +337,15 @@ body{
         position: absolute;
         font-size: 30px;
         top: 8%;
-        left: 40%;
+        left: 33%;
     }
 
     .time{
         position: absolute;
-        place-content: center;
         font-size: 18px;
         font-weight: bold;
         color: black;
-        float: right;
+        left: 35%;
     }
 
     .container1{
@@ -387,9 +387,9 @@ body{
 
     .container6{
         position: absolute;
-        left: 44%;
-        top: 25%;
-        width: 23%;
+        left: 40%;
+        top: 22%;
+        width: 31%;
         height: 3.5%;
         display: flex;
         float: right;
@@ -406,9 +406,9 @@ body{
     
     .container2{
         position: absolute;
-        left: 27%;
+        left: 30%;
         top: 55%;
-        width: 50%;
+        width: 46%;
         height: 11%;
         background-color: rgb(255, 255, 255);
         border-radius: 10px;   
@@ -457,7 +457,7 @@ body{
         left: 15%;
         top: 80%;
         width: 22%;
-        height: 16%;
+        height: 18%;
         background-image: linear-gradient(#d4c2c2 , #6d388b);
         border-radius: 10px;  
         padding: 4 , 4, 4 ,4 ;
@@ -469,7 +469,7 @@ body{
         left: 45%;
         top: 80%;
         width: 22%;
-        height: 16%;
+        height: 18%;
         background-image: linear-gradient(#fafafa , #eeeeee);
         border-radius: 10px;    
     }
@@ -479,18 +479,17 @@ body{
         left: 75%;
         top: 80%;
         width: 22%;
-        height: 16%;
+        height: 18%;
         background-image: linear-gradient(#fafafa , #eeeeee);
         border-radius: 10px;    
     }
 
     .time1 , .time2 , .time3 {
         white-space: nowrap;
-        font-size: medium;
+        font-size: small;
         font-weight: bold;
         left: 20%;
         position: absolute;
-        top: 1.5%;
     }
 
     .clouds1{
@@ -523,6 +522,11 @@ body{
         top: 20%;
         font-weight: bold;
         
+    }
+
+    .degree3{
+        left: 20%;
+        color: #000000;
     }
 
   }
