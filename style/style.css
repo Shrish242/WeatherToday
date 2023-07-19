@@ -309,7 +309,15 @@ body{
 }
 
 
-@media screen and (max-width: 750px) { 
+@media screen and (max-width: 750px) {   
+
+    .headdesign{
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(#304879 , #8AA7E0 , #EEA7E3 );
+        position: absolute;
+        display: flexbox;
+    }
     .searchbtn {
         width: 28vw; /* Use relative unit */
         height: 5.5vh; /* Use relative unit */
@@ -345,7 +353,7 @@ body{
         font-size: 18px;
         font-weight: bold;
         color: black;
-        left: 35%;
+        left: 38%;
     }
 
     .container1{
@@ -399,7 +407,7 @@ body{
         position: absolute;
         white-space: nowrap;
         font-size: 10px;
-        top: -10%;
+        top: -8%;
         left: 0px;
         display: grid;
     }
