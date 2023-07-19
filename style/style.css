@@ -105,9 +105,9 @@ body{
     font-family: 'Crimson Text', serif;
     position: absolute;
     left: 40%;
-    top: 70%;
+    top: 72%;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: underline;
 }
 
@@ -115,9 +115,9 @@ body{
     font-family: 'Crimson Text', serif;
     position: absolute;
     left: 60%;
-    top: 70%;
+    top: 72%;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: underline;
 }
 
@@ -221,7 +221,6 @@ body{
 
 .date{
     position: absolute;
-    left: 10%;
     top: -19%;
     font-size: 15px;
     white-space: nowrap;
@@ -309,7 +308,7 @@ body{
 }
 
 
-@media screen and (max-width: 700px) { 
+@media screen and (max-width: 750px) { 
     .searchbtn {
         width: 28vw; /* Use relative unit */
         height: 5.5vh; /* Use relative unit */
@@ -449,7 +448,7 @@ body{
         left: 17%;
         top: 73%;
         font-weight: 900;
-        font-size: 20px;
+        font-size: 17px;
         text-decoration: underline;
     }
 
@@ -514,6 +513,8 @@ body{
         position: absolute;
         top: 73%;
         right: 20%;
+        font-size: 17px;
+        white-space: nowrap;
     }
 
     .btnname{
