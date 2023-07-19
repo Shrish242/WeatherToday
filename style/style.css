@@ -353,7 +353,7 @@ body{
         font-size: 18px;
         font-weight: bold;
         color: black;
-        left: 38%;
+        left: 45%;
     }
 
     .container1{
@@ -407,7 +407,7 @@ body{
         position: absolute;
         white-space: nowrap;
         font-size: 10px;
-        top: -8%;
+        top: -20%;
         left: 0px;
         display: grid;
     }
